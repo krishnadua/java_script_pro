@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .but:hover{
+background-color: aqua;
+
+border: 3px solid gold;
+/* border-bottom: gold; */
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <img id="bulb" src="assets/images/off_img.webp" alt="" style="margin-left:450px ;height: 700px;">
+
+    <button id="togglebtn" class="but" style="margin-left:710px;width: 100px;border-radius: 7px;font-family: 'Times New Roman', Times, serif;font-size: 18px;"> turn on</button>
+    
+<script>
+    let btn = document.getElementById("togglebtn");
+    let bulb = document.getElementById("bulb");
+    btn.addEventListener('click',togglebulb);
+   function togglebulb(e){
+    if(btn.textContent.includes('on')){
+     bulb.src= "assets/images/on_img.webp"
+     btn.textContent = "turn off"
+   }
+   else{
+    bulb.src= "assets/images/off_img.webp"
+     btn.textContent = "turn on"
+   }
+   }
+</script>
+</body>
+</html>
