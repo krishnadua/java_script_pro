@@ -1,0 +1,44 @@
+.payment{
+    margin-top: 100px;
+margin-left: 380px;
+}
+
+h1{
+    margin-left: 40px;
+    font-size: 60px;
+}
+.img1{
+    margin-left: 40pc;
+    margin-top: -50PX;
+
+}
+b{
+    margin-left: 50px;
+font-size: 40px;
+
+}
+a{
+ text-decoration: none;
+ color: crimson;
+}
+a:hover{
+    color: rgb(113, 102, 102);
+}
+.img2{
+    margin-left: 40pc;
+    margin-top: -70px;
+
+
+}
+.img3{
+    margin-left: 40pc;
+    margin-top: -40px;
+
+
+}
+.img4{
+    margin-left: 40pc;
+    margin-top: -45px;
+
+
+}
